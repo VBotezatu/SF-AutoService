@@ -20,6 +20,7 @@ button {
 }
 address {
   font-style: normal;
+  margin-bottom: 0;
 }
 img {
   display: block;
