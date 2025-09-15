@@ -136,6 +136,9 @@ body {
   line-height: 140%;
   letter-spacing: -0.2px;
 }
+.accordion-body {
+  background-color: lightgray;
+}
 .slide__text {
   color: var(--Color-Scheme-1-Text, #080303);
   font-family: Cantarell;
