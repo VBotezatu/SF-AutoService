@@ -39,7 +39,7 @@ body {
     gap: 14px;
   }
   @media screen and (min-width: 1200px) {
-    gap: 175px;
+    gap: 133px;
   }
 }
 .header {
