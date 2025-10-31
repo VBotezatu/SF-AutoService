@@ -19,8 +19,16 @@ body {
     width: 1200px;
   }
 }
+.header {
+  background-image: url(../photo/header-logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  background-color: #c0c0c0;
+  height: auto;
+}
 .header__container {
-  gap: 50px;
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 23px;
@@ -30,23 +38,19 @@ body {
   }
 }
 .header__list {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media screen and (min-width: 768px) {
+    margin-top: 120px;
     flex-direction: row;
-    gap: 14px;
+    gap: 140px;
   }
   @media screen and (min-width: 1200px) {
-    gap: 133px;
-  }
-}
-.header {
-  background-color: #c0c0c0;
-  height: 207px;
-  @media screen and (min-width: 768px) {
-    height: 100px;
+    padding-top: 80px;
+    gap: 273px;
   }
 }
 .header__logo {
